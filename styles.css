@@ -1,0 +1,217 @@
+body {
+  background: #353535;
+  font-family: 'Karla', sans-serif;
+}
+
+p {
+  color: white;
+}
+
+h2 {
+  position: absolute;
+  left: 3.44%;
+  right: 85.94%;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 44px;
+  color: rgba(255, 255, 255, 0.8);
+  top: -15px;
+}
+
+h4 {
+  position: absolute;
+  left: 14.69%;
+  right: 80.31%;
+  top: 3.7%;
+  bottom: 94.72%;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.navbar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 91.11%;
+  background: rgba(34, 34, 34, 0.68);
+  height: 8vh;
+}
+
+.adminbtn {
+  position: absolute;
+  left: 80.31%;
+  right: 12.97%;
+  top: 2.41%;
+  bottom: 93.52%;
+  width: 125px;
+  height: 44px;
+  background: rgba(34, 34, 34, 0);
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-top: 12px;
+}
+
+.supportbtn {
+  position: absolute;
+  left: 89.38%;
+  right: 4.11%;
+  top: 2.41%;
+  bottom: 93.52%;
+  width: 125px;
+  height: 44px;
+  background: #2F8BE6;
+  border-radius: 6px;
+  margin-top: 12px;
+}
+
+img {
+  position: absolute;
+  left: 56.72%;
+  right: 34.27%;
+  top: 9.72%;
+  bottom: 73.7%;
+  width: 179px;
+  height: 165px;
+}
+
+.boxed {
+  position: absolute;
+  background: #2A2A2A;
+  border-radius: 6px;
+  width: 582px;
+  height: 70px;
+}
+
+.name {
+  left: 35.47%;
+  right: 34.22%;
+  top: 27.59%;
+  bottom: 65%;
+}
+
+.email {
+  left: 35.52%;
+  right: 34.27%;
+  top: 37.96%;
+  bottom: 54.63%;
+}
+
+.phone {
+  left: 35.42%;
+  right: 34.27%;
+  top: 48.33%;
+  bottom: 44.26%;
+}
+
+.order {
+  position: absolute;
+  left: 36.51%;
+  right: 58.33%;
+  top: 15.93%;
+  bottom: 81.48%;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.paystatbtn {
+  position: absolute;
+  left: 35.42%;
+  right: 54.01%;
+  top: 58.7%;
+  bottom: 35.09%;
+  width: 203px;
+  height: 67px;
+  background: rgba(229, 57, 53, 0.9);
+  border-radius: 6px;
+}
+
+.amount {
+  position: absolute;
+  left: 48.02%;
+  top: 58%;
+  bottom: 36.85%;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.9)
+}
+
+.note {
+  position: absolute;
+  left: 35.52%;
+  right: 34.27%;
+  top: 68.24%;
+  bottom: 16.11%;
+  background: #2A2A2A;
+  border-radius: 6px;
+  width: 582px;
+  height: 169px;
+}
+
+.goback {
+  position: absolute;
+  left: 35.52%;
+  right: 56.77%;
+  top: 86.85%;
+  bottom: 6.94%;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 160px;
+  height: 67px;
+}
+
+.quote {
+  position: absolute;
+  left: 45.83%;
+  right: 45.31%;
+  top: 86.85%;
+  bottom: 6.94%;
+  border: 2px solid rgba(255, 255, 255, 0.708);
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 160px;
+  height: 67px;
+}
+
+.pay {
+  position: absolute;
+  left: 57.4%;
+  right: 34.27%;
+  top: 86.85%;
+  bottom: 6.94%;
+  background: #51A467;
+  border-radius: 6px;
+  width: 160px;
+  height: 67px;
+}
+
+.boxtext {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 10px;
+}
