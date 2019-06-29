@@ -2,6 +2,7 @@ body {
   background: #353535;
   font-family: 'Karla', sans-serif;
 }
+body::-webkit-scrollbar { width: 0 !important }
 
 p {
   color: white;
@@ -143,18 +144,19 @@ img {
 }
 
 .amount {
-  position: absolute;
-  left: 48.02%;
-  top: 58%;
-  bottom: 36.85%;
-  font-family: Karla;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
-  /* identical to box height */
-  letter-spacing: 0.02em;
-  color: rgba(255, 255, 255, 0.9)
+ 
+position: absolute;
+width: 167px;
+left: calc(50% - 167px/2 + 45.5px);
+top: 58%;
+bottom: 36.85%;
+font-family: Karla;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0.02em;
+color: rgba(255, 255, 255, 0.9);
 }
 
 .note {
@@ -229,4 +231,74 @@ img {
 }
 .btntext{
   color: white;
+}
+
+@media screen and (max-width: 700px) {
+  body{
+    overflow-y: hidden;
+  }
+  
+  h2{
+    font-size: 1.5em; 
+  }
+  h4{
+    font-size: 0.75em;
+    left: 40vw;
+  }
+  .adminbtn,.supportbtn{
+    width: 3rem;
+    height: 1.7rem;
+    margin-top: 15px;
+  }
+  .adminbtn{
+    left: 62vw;
+  }
+  .supportbtn{
+    left: 78vw;
+  }
+  .btntext{
+    padding-bottom: 5px;
+  }
+  .order{
+    left: 13vw;
+  }
+  .boxed{
+    left: 13vw;
+    width: 72vw;
+  }
+  .paystatbtn{
+    left: 13vw;
+    width: 35vw;
+    height: 12vw;
+  }
+  .amount{
+    left: 52vw;
+    font-size: 0.9rem;
+    margin-top: 25px;
+  }
+  .goback{
+    left: 13vw;
+    width: 20vw;
+    height: 10vw;
+    margin-top: 2vh;
+  }
+  .quote{
+    left: 39vw;
+    width: 20vw;
+    height: 10vw;
+    border: 2px solid rgba(255, 255, 255, 0.708);
+    margin-top: 2vh;
+  }
+  .pay{
+    left:65vw;
+    width: 20vw;
+    height: 10vw;
+    margin-top: 2vh;
+  }
+  .note{
+    top: 67vh;
+  }
+  .navbtn{
+    margin-top: 0.4rem;
+  }
 }
