@@ -58,6 +58,7 @@ h4 {
   box-sizing: border-box;
   border-radius: 6px;
   margin-top: 12px;
+  
 }
 
 .supportbtn {
@@ -71,6 +72,7 @@ h4 {
   background: #2F8BE6;
   border-radius: 6px;
   margin-top: 12px;
+  border: none;
 }
 
 img {
@@ -137,6 +139,7 @@ img {
   height: 67px;
   background: rgba(229, 57, 53, 0.9);
   border-radius: 6px;
+  border: none;
 }
 
 .amount {
@@ -178,6 +181,8 @@ img {
   width: 160px;
   height: 67px;
   margin-top: 10px;
+  background: rgba(34, 34, 34, 0);
+
 }
 
 .quote {
@@ -192,6 +197,8 @@ img {
   width: 160px;
   height: 67px;
   margin-top: 10px;
+  border: none;
+  background: rgba(34, 34, 34, 0);
 }
 
 .pay {
@@ -205,6 +212,8 @@ img {
   width: 160px;
   height: 67px;
   margin-top: 10px;
+  border: none;
+
 }
 
 .boxtext {
@@ -217,4 +226,7 @@ img {
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.6);
   margin: 10px;
+}
+.btntext{
+  color: white;
 }
